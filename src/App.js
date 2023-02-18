@@ -89,7 +89,7 @@ export class App extends Component {
       }
     }, () => {
       let allvals = [];
-      for(let cat in this.state.wholeFilterArray){
+      for (let cat in this.state.wholeFilterArray) {
         allvals.push(...this.state.wholeFilterArray[cat]);
       }
       this.setState({
@@ -108,16 +108,16 @@ export class App extends Component {
   }
   onChangeSearchInputHandler = (event) => {
     event === null ?
-    this.setState({ searchInputValue: '' }) :
-    this.setState({ searchInputValue: event.target.value.toLowerCase() });
+      this.setState({ searchInputValue: '' }) :
+      this.setState({ searchInputValue: event.target.value.toLowerCase() });
   }
   contactInputChangeHandlerFn = (event) => {
     this.setState({ [event.target.name.toLowerCase()]: event.target.value });
   }
   contactInputResetHandlerFn = (event) => {
-    this.setState({ 
+    this.setState({
       name: '', subject: '', email: '', phone: '', comments: ''
-     });
+    });
   }
   onSubmitContactFormDataFn = (event) => {
     alert(`Name: ${this.state.name} \n Subject: ${this.state.subject} \n Email: ${this.state.email} \n Phone: ${this.state.phone} \n Comments: ${this.state.comments}`);
@@ -129,21 +129,30 @@ export class App extends Component {
     icFilter[0].classList.toggle('sidenav-showing');
   }
   componentDidMount() {
-    fetch('https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/catalogue.json')
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        data.map((item) => {
-          item.userQuantity = 0;
-          item.cartItemTotal = item.userQuantity * item.price;
-          item.onlyAvailableBool = false;
-          return item;
-        });
-        this.setState({ allProductsDataFromApi: data }, () => {
-          this.setState({ wholeFilterArray: initialFilterArrayFromApi(this.state.allProductsDataFromApi) });
-        });
-      });
+    // fetch('https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/catalogue.json')
+    //   .then((res) => {
+    //     return res.json();
+    //   })
+    //   .then((data) => {
+    //     data.map((item) => {
+    //       item.userQuantity = 0;
+    //       item.cartItemTotal = item.userQuantity * item.price;
+    //       item.onlyAvailableBool = false;
+    //       return item;
+    //     });
+    //     this.setState({ allProductsDataFromApi: data }, () => {
+    //       this.setState({ wholeFilterArray: initialFilterArrayFromApi(this.state.allProductsDataFromApi) });
+    //     });
+    //   });
+    data.map((item) => {
+      item.userQuantity = 0;
+      item.cartItemTotal = item.userQuantity * item.price;
+      item.onlyAvailableBool = false;
+      return item;
+    });
+    this.setState({ allProductsDataFromApi: data }, () => {
+      this.setState({ wholeFilterArray: initialFilterArrayFromApi(this.state.allProductsDataFromApi) });
+    });
     console.log('APP component Did Mount =================')
   }
   render() {
@@ -162,7 +171,7 @@ export class App extends Component {
         showSideNavHandlerFnOnMobile: this.showSideNavHandlerFnOnMobile
       }}>
         <Routes>
-          <Route path="/teerex" element={<AppMain />}></Route>
+          <Route path="/" element={<AppMain />}></Route>
           <Route path="/products" element={
             <Productspage
               isSideNavOpen={true}
