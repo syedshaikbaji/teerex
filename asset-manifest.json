@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teerex/static/css/main.3ebd8f57.css",
-    "main.js": "/teerex/static/js/main.bab33862.js",
+    "main.js": "/teerex/static/js/main.07b35b78.js",
     "static/js/787.52ea4b8d.chunk.js": "/teerex/static/js/787.52ea4b8d.chunk.js",
     "static/media/teerex-logo.png": "/teerex/static/media/teerex-logo.5e62666a89036071cd04.png",
     "static/media/ic-man.svg": "/teerex/static/media/ic-man.c1e948835e196f3d0cec.svg",
@@ -19,11 +19,11 @@
     "static/media/ic-filter-filled.svg": "/teerex/static/media/ic-filter-filled.671f508a597e97972953.svg",
     "static/media/ic-facebook.svg": "/teerex/static/media/ic-facebook.100e2473e7b3caea565ff546b8835317.svg",
     "main.3ebd8f57.css.map": "/teerex/static/css/main.3ebd8f57.css.map",
-    "main.bab33862.js.map": "/teerex/static/js/main.bab33862.js.map",
+    "main.07b35b78.js.map": "/teerex/static/js/main.07b35b78.js.map",
     "787.52ea4b8d.chunk.js.map": "/teerex/static/js/787.52ea4b8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ebd8f57.css",
-    "static/js/main.bab33862.js"
+    "static/js/main.07b35b78.js"
   ]
 }
