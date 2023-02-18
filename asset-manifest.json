@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/teerex/static/css/main.3ebd8f57.css",
+    "main.js": "/teerex/static/js/main.360d1e31.js",
+    "static/js/787.52ea4b8d.chunk.js": "/teerex/static/js/787.52ea4b8d.chunk.js",
+    "static/media/teerex-logo.png": "/teerex/static/media/teerex-logo.5e62666a89036071cd04.png",
+    "static/media/ic-man.svg": "/teerex/static/media/ic-man.c1e948835e196f3d0cec.svg",
+    "static/media/ic-woman.svg": "/teerex/static/media/ic-woman.597297a5b10aef8e2962.svg",
+    "static/media/ic-home.svg": "/teerex/static/media/ic-home.43ffe143c24f9c80f7c5fd181f628ca9.svg",
+    "static/media/ic-phone.svg": "/teerex/static/media/ic-phone.560fd3b6e90465cc621d10ed0f92b22f.svg",
+    "static/media/ic-search.svg": "/teerex/static/media/ic-search.85d25b813f41fb18eb414663e00832bb.svg",
+    "static/media/ic-times.svg": "/teerex/static/media/ic-times.bf6ac2c60ed7620fa6e09084b0397526.svg",
+    "static/media/ic-filter-outline-white.svg": "/teerex/static/media/ic-filter-outline-white.947845616213c7a35388.svg",
+    "static/media/ic-filter-outline.svg": "/teerex/static/media/ic-filter-outline.effeca122f74710fd4deacf4bca5f2f8.svg",
+    "static/media/ic-twitter.svg": "/teerex/static/media/ic-twitter.13e812ef1320ef4fedca6b14ef7e454d.svg",
+    "index.html": "/teerex/index.html",
+    "static/media/ic-mail.svg": "/teerex/static/media/ic-mail.92840deb0cb0160dfba959194fc31acd.svg",
+    "static/media/ic-linkedin.svg": "/teerex/static/media/ic-linkedin.de528cf98e58a32e9f1d63effa7fdbef.svg",
+    "static/media/ic-filter-filled.svg": "/teerex/static/media/ic-filter-filled.671f508a597e97972953.svg",
+    "static/media/ic-facebook.svg": "/teerex/static/media/ic-facebook.100e2473e7b3caea565ff546b8835317.svg",
+    "main.3ebd8f57.css.map": "/teerex/static/css/main.3ebd8f57.css.map",
+    "main.360d1e31.js.map": "/teerex/static/js/main.360d1e31.js.map",
+    "787.52ea4b8d.chunk.js.map": "/teerex/static/js/787.52ea4b8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ebd8f57.css",
+    "static/js/main.360d1e31.js"
+  ]
+}
