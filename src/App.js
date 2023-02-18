@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import data from './Components/api/data';
 import AppMain from './Components/AppMain';
 import Contact from './Components/Contact';
 import Cart from './Components/Cart';
@@ -161,7 +162,7 @@ export class App extends Component {
         showSideNavHandlerFnOnMobile: this.showSideNavHandlerFnOnMobile
       }}>
         <Routes>
-          <Route path="/" element={<AppMain />}></Route>
+          <Route path="/teerex" element={<AppMain />}></Route>
           <Route path="/products" element={
             <Productspage
               isSideNavOpen={true}
