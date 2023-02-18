@@ -16,7 +16,7 @@ function TopNavigation(props) {
             <div className="row">
               <nav className="main-navigation col-12 p-0">
                 <div className="logo-block col-6 col-lg-2 p-0 line-height-0">
-                  <Link className='brand line-height-0' to="/">
+                  <Link className='brand line-height-0' to="/teerex">
                     <img src={require(`../assets/images/teerex-logo.png`)} alt="logo" />
                     TEE REX
                   </Link>
@@ -25,7 +25,7 @@ function TopNavigation(props) {
                 <div className="page-nav-block col-lg-5 p-0 py-3 py-lg-0">
                   <div className="navlinks col-lg-12 p-0">
                     <ul>
-                      <li><NavLink to="/">Home</NavLink></li>
+                      <li><NavLink to="/teerex">Home</NavLink></li>
                       <li><NavLink to="/products">Products</NavLink></li>
                       <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>

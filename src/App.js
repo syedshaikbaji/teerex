@@ -172,6 +172,7 @@ export class App extends Component {
       }}>
         <Routes>
           <Route path="/" element={<AppMain />}></Route>
+          <Route path="/teerex" element={<AppMain />}></Route>
           <Route path="/products" element={
             <Productspage
               isSideNavOpen={true}
